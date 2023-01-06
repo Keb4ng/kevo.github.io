@@ -130,6 +130,12 @@ li{
 	margin: 35px auto;
 	padding: 0 25px;
 	display: block;
+	transition: 500ms;
+}
+
+.global-button:hover{
+	border: solid 2px black;
+	color: black;
 }
 
 .blogs{
@@ -184,12 +190,22 @@ li{
 	font-family: 'Montserrat', sans-serif;
 	color: #2D827C;
 	margin-top: 50px;
+	transition: 500ms;
+}
+
+.blog-cont button:hover{
+	color: black;
+}
+
+.blog-cont button:hover .svg-arrow{
+	color: black;
 }
 
 .svg-arrow{
 	height: 25px;
 	width: 25px;
 	color: #2D827C;
+	transition: 500ms;
 }
 
 .partners{
@@ -237,7 +253,13 @@ li{
 }
 
 .invert{
-	filter: brightness(0);
+	color: black;
+	border:  solid 2px black;
+}
+
+.partners button:hover{
+	border:  solid 2px #2D827C;
+	color: #2D827C;
 }
 
 
